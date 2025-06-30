@@ -1,6 +1,8 @@
 
 # 📊 Centrality Analysis and Figure Reproduction
-
+This repository contains scripts and Jupyter notebooks for analyzing and visualizing residue interaction networks in apoptotic caspases. The analysis focuses on degree and betweenness centrality metrics to identify key residues involved in allosteric regulation and conformational dynamics.
+The visualizations are generated using Seaborn to provide clear and interpretable insights into structural communication pathways.
+This work is part of the manuscript titled “Evolution-guided centrality analysis reveals allosteric communication hotspots in apoptotic caspases”, currently under review for publication in the Biochemical Journal.
 This repository contains the code and data required to reproduce the **centrality-based network analysis** and generate **Figures 2, S2, and Supplementary Figure S9** for the manuscript.
 
 ---

@@ -71,13 +71,6 @@ To reproduce the manuscript figures, run:
 - `Figures2_S2.ipynb` → Generates **Figure 2 and Figure S2**
 - `Supplementary_Fig_S9.ipynb` → Generates **Supplementary Figure S9**
 
----
-
-## ✅ Output
-
-- Processed Excel files and generated figures are saved in their respective folders.
-
----
 
 ## 📬 Contact
 

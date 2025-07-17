@@ -3,7 +3,7 @@
 This repository contains Jupyter notebooks with scripts for analyzing and visualizing residue interaction networks in apoptotic caspases. The analysis focuses on degree and betweenness centrality metrics to identify key residues involved in allosteric regulation and conformational dynamics.
 The visualizations are generated using Seaborn to provide clear and interpretable insights into structural communication pathways.
 This work is part of the manuscript titled “Evolution-guided centrality analysis reveals allosteric communication hotspots in apoptotic caspases”, currently under review for publication in the Biochemical Journal.
-This repository contains the code and data required to reproduce the **centrality-based network analysis** and generate **Figures 2, S2, and Supplementary Figure S9** for the manuscript.
+This repository contains the code and data required to understand the workflow and reproduce the **centrality-based network analysis**, generate **Figures 2, S2, and Supplementary Figure S9** for the manuscript.
 
 ---
 
@@ -34,12 +34,12 @@ Project Root/
 
 ### 1️⃣ Add Raw Centrality Data
 
-Place the Excel files containing **Degree** and **Betweenness** centrality obtained from cytoscape values in:
+Place the Excel files containing **Degree** and **Betweenness** centrality obtained from the sensenet application (https://apps.cytoscape.org/apps/sensenet) within cytoscape (https://cytoscape.org/) using frames from MD simulations (Gromacs):
 
 - `Centrality_Analysis/No_Urea/`
 - `Centrality_Analysis/Urea/`
 
-👉 **Refer to the README file in `Centrality_Analysis/`** for the correct column format of these Excel files. If you do not have simualtions in Urea just leave folder blank. 
+👉 **Refer to the README file in `Centrality_Analysis/`** for the correct column format of these Excel files. If you do not have simualtions in Urea just leave urea folder blank. 
 
 ---
 
@@ -50,17 +50,17 @@ Execute the following notebooks:
 - `Centrality_Analysis/No_Urea/Degree_and_Betweeness_Pipeline.ipynb`
 - `Centrality_Analysis/Urea/Degree_and_Betweeness_Pipeline.ipynb`
 
-These scripts will process and merge centrality data.
+These scripts will process and merge centrality data in different sub folders.
 
 ---
 
 ### 3️⃣ Add Consurf Grades
 
-Place processed conservation grade files in:
+Place processed conservation scores obtained from consurf (https://consurf.tau.ac.il/consurf_index.php) in:
 
 - `Consurf_grades/Consurf_Scores_pre_Processing/`
 
-👉 See `Consurf_grades/README.md` for file format and structure.
+👉 See `Consurf_grades/README.md` for the required formatting to successfully execute the scripts.
 
 ---
 

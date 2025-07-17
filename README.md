@@ -76,7 +76,6 @@ To reproduce the manuscript figures, run:
 ## ✅ Output
 
 - Processed Excel files and generated figures are saved in their respective folders.
-- These outputs can be used directly for manuscript submission.
 
 ---
 
